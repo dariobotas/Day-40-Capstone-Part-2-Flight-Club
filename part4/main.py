@@ -8,7 +8,7 @@ from part4.notification_manager import NotificationManager
 
 def run():
   data_manager = DataManager()
-  sheet_data = data_manager.get_destination_data()
+  sheet_data = data_manager.get_destination_data
   flight_search = FlightSearch()
   notification_manager = NotificationManager()
   
