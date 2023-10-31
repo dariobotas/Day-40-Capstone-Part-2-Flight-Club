@@ -2,7 +2,8 @@ import os
 import pprint
 
 import requests
-from flight_data import FlightData
+
+from part4.flight_data import FlightData
 
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
 TEQUILA_API_KEY = os.environ["TEQUILA_API_KEY"]
